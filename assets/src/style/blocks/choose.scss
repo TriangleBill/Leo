@@ -1,0 +1,41 @@
+.browser {
+  max-width: 486px;
+  width: 100%;
+  height: auto;
+}
+
+.browser_img {
+  width: 100%;
+  max-width: 486px;
+  height: auto;
+}
+
+.choose_title {
+  font-size: 32.63px;
+  margin-bottom: 20px;
+}
+
+.choose_item {
+  margin-bottom: 15px;
+
+  font-family: UniversCE-Light;
+  font-size: 16px;
+  color: #9a9898;
+}
+
+
+@media (max-width: 992px) {
+  .choose_title {
+    font-size: 24px;
+  }
+
+  .choose_item {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px){
+  .choose_item {
+    font-size: 10px;
+  }
+}

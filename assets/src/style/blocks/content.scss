@@ -1,0 +1,41 @@
+.content {
+  position: relative;
+  padding: 55px 65px 65px 50px;
+
+  z-index: 1;
+
+  border: 1px solid #dedede;
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.content_img {
+  width: 100%;
+  max-width: 713px;
+  height: auto;
+}
+
+.content_title {
+  padding-bottom: 20px;
+
+  font-size: 38.63px;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content_title {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 10px;
+  }
+}

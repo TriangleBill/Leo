@@ -1,0 +1,90 @@
+.login {
+  padding: 10px 15px 20px 25px;
+  width: 45%;
+  height: auto;
+  background-color: #e67624;
+
+  border-radius: 0.142em;
+
+  color: #ddf9fd;
+
+  input {
+    width: 35%;
+    padding-left: 10px;
+    border: none;
+    color: #595959;
+
+    &:hover {
+      border: none;
+    }
+  }
+
+}
+
+.subscribe_title {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.btn_log {
+  display: inline-block;
+  background-color: #444444;
+
+  width: 20%;
+  text-align: center;
+}
+
+.subscribe {
+  @extend .login;
+  background-color: #01d4f3;
+
+  input {
+    width: 61%;
+  }
+}
+
+
+.btn_subscribe {
+  @extend  .btn_log;
+  background-color: #029bb1;
+  width: 25%;
+}
+
+@media (max-width: 1200px) {
+  .login {
+    padding: 5px;
+  }
+
+  .subscribe_title {
+    margin-bottom: 5px;
+    font-size: 26px;
+    line-height: 1em;
+  }
+}
+
+@media (max-width: 992px) {
+  .subscribe_title {
+    font-size: 19px;
+  }
+
+  .login input {
+    font-size: 10px;
+  }
+
+  .btn_log {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .login {
+    width: 70%;
+    margin: 0 auto 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .login {
+    width: 100%;
+  }
+}

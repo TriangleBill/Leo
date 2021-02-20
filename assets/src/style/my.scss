@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'UniversCE-Light';
+  src: local('UniversCE-Light'), url('https://nomail.com.ua/files/woff/bc115045af0cb9eca158dc5a8a23f894.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe WP N';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe WP N'), url('../fonts/SegoeWPN.woff') format('woff');
+}
+
+body {
+  font-family: "Segoe WP N";
+  font-weight: 300;
+  color: #727272;
+}
+
+p {
+  color: #b3b3b3
+}
+
+
+.leo {
+  font-family: "Mrs Eaves OT";
+  line-height: 0.675em;
+  font-style: italic;
+  font-size: 118.5px;
+  font-weight: 400;
+  color: #b8bcbd;
+}
